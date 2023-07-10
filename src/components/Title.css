@@ -1,0 +1,21 @@
+.Main {
+    min-height: 10vh;
+    background: var(--body_background);
+    background-image: var(--body_background_image);
+    color: var(--body_color);
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 2%;
+    position: sticky;
+    top: 0px;
+}
+
+.title {
+    float: left;
+    padding-left: 10%;
+}
+
+.about {
+    float: right;
+    padding-right: 10%;
+}
