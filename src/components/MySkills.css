@@ -1,15 +1,26 @@
-.MySkills {
+.Skills {
     background-color: var(--body_background);
     background-image: var(--body_background_image);
     min-height: 90vh;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: left;
     font-size: calc(10px + 2vmin);
     color: var(--body_color);
 }
 
-.tech {
-    
-}
+.mySkills {
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-left: 10%;
+    padding-top: 20px;
+  }
+
+  .tech {
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: 10%;
+  }

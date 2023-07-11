@@ -3,8 +3,8 @@ function Title() {
     return(
         <>
             <div className='Main'>
-                <span className="title">Vikash Kumar</span>
-                <span className='about'>About Me</span>
+                <span className="title">&lt;Vikash Kumar/&gt;</span>
+                {/* <span className='about'>About Me</span> */}
             </div>
         </>        
     )

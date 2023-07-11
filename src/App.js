@@ -19,11 +19,15 @@ function App() {
           Vikash Kumar
         </div>
           <div className='jobTitle'>
-            Senior Software Engineer - Frontend <br></br>
+            Senior Software Engineer<br></br>
           </div>
           <div>
-            <span><img className='social' src={LinkedIn} alt="LinkedIn" /></span>
-            <span><img className='social' src={Gmail} alt="Gmail" /></span>
+            <span><a target="_blank" href='https://www.linkedin.com/in/vikash-kumar-267b04121/'>
+              <img className='social' src={LinkedIn} alt="LinkedIn" /></a>
+            </span>
+            <span><a target="_blank" href="mailto:vikashjha01437@gmail.com">
+              <img className='social' src={Gmail} alt="Gmail" /></a>
+            </span>
           </div>
           <div className='desc'>
             <br/><strong>Welcome👋!</strong><br/><br/>
@@ -37,9 +41,9 @@ function App() {
         {/* <BasicSpeedDial /> */}
         <DarkMode />
       </header>
-      <MySkills />
+      {/* <MySkills /> */}
       <Experience />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
