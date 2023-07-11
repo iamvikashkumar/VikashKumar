@@ -1,11 +1,58 @@
-.Exp {
-    background: var(--body_background);
+.Experience {
+    background-color: var(--body_background);
     background-image: var(--body_background_image);
     min-height: 90vh;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: left;
     font-size: calc(10px + 2vmin);
     color: var(--body_color);
 }
+
+.myExperience {
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-left: 10%;
+    padding-top: 20px;
+  }
+
+  .half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+  }
+  
+  /* Pattern styles */
+  .container {
+    display: flex;
+  }
+  .unorderList {
+    font-size: 14px;
+  }
+  .position {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .yoe {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .link {
+    color: var(--body_color);
+  }
+
+  .resume {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+  }

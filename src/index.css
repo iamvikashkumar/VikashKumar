@@ -7,7 +7,7 @@
 
 [data-theme="dark"] {
   --body_background: #282c34;
-  --body_color: white;
+  --body_color: rgb(200, 218, 144);
   --link_color: cyan;
   --body_background_image: url("./Images/dark.png")
 }
